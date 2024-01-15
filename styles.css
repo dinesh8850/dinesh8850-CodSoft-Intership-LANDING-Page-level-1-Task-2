@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image:url("https://cdn.pixabay.com/photo/2017/11/16/09/32/matrix-2953869_1280.jpg");
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.feature {
+    text-align: center;
+}
+
+.cta{
+    background-color: #f3b4f6;
+    text-align: center;
+    padding: 40px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+ 
+.ata{
+   text-align: center;
+    padding: 40px;
+}
+
